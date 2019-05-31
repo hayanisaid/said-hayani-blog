@@ -460,12 +460,14 @@ To get the matched parameter, use this line of code:
 
 ```
 this.$route.params.Pid
+
 ```
 
 **details.vue**
 
 ```
 <h2>the product id is :{{this.$route.params.Pid}}</h2>
+
 ```
 
 Then loop through the products array in  `detalils.vue` and check the object that matchs the parameter Pid and return its data:
@@ -570,6 +572,7 @@ To make an animation transition, put the “<router-view>” inside the “<tran
 <transition name="moveInUp">
          <router-view/>
   </transition>
+  
 ```
 
 To animate the transition of the component when it enters the view, add `enter-active`  to the name given to the transition tag. Then add  `leave-active`  and then give it the CSS transition properties just like this:
@@ -579,6 +582,7 @@ To animate the transition of the component when it enters the view, add `enter-a
   opacity: 0;
   transition: opacity 1s ease-in;
 }
+
 ```
 
 #### **Using CSS3 animation**
