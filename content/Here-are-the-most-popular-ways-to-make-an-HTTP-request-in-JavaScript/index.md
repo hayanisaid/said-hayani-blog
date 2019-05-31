@@ -112,7 +112,9 @@ npm install axios --save
 Then you’d need to import it
 
 ```
+
 import axios from 'axios'
+
 ```
 
 Second, you can include axios using a CDN.
